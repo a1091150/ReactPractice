@@ -1,10 +1,25 @@
 const path = require('path');
 module.exports = {
     entry: {
-        index: './src/index.js' // 從哪裡開始打包
+        index: './src/index.js'
     },
     output: {
-        filename: 'bundle.js', // 要打包成什麼
-        path: path.resolve('./build'), // 要打包在哪裡
+        filename: 'bundle.js',
+        path: path.resolve('./build'),
+    },
+    // --------- 新增以下內容 -----------
+    module: {
+        rules: [
+            {
+                test: /.js$/,
+                exclude: /node_modules/, //不編譯的檔案
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-react', '@babel/preset-env']
+                    }
+                }
+            },
+        ]
     }
 };
