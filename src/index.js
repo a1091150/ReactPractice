@@ -68,3 +68,20 @@ ReactDOM.render(
     <ul className="menu">{menuItemArr}</ul>,
     document.getElementById('root3')
 );
+
+import MenuItem from './component/MenuItem';
+
+let menuItemArr2 = menuItemWording.map((wording) => <MenuItem />);
+ReactDOM.render(
+    <div>{menuItemArr2}</div>,
+    document.getElementById('root4')
+);
+
+import MenuItem2 from './component/MenuItem2';
+import Menu from './component/Menu';
+
+let menuItemArr3 = menuItemWording.map((wording) => <MenuItem2 text={wording} />);
+ReactDOM.render(
+    <Menu title={"這是標題!"}>{menuItemArr3}</Menu>,
+    document.getElementById('root5')
+)
