@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const menuContainerStyle = {
     position: "relative",
@@ -33,12 +33,13 @@ const menuStyle = {
 };
 
 
-function Menu(props) {
+function Menu({ title, children }) {
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div style={menuContainerStyle}>
-            <p style={menuTitleStyle}>{props.title}</p>
-            <button style={menuBtnStyle}>V</button>
-            <ul style={menuStyle}>{props.children}</ul>
+            <p style={menuTitleStyle}>{title}</p>
+            <button style={menuBtnStyle} onClick={() => setIsOpen(!isOpen)}>{isOpen ? "展開" : "縮排"}</button>
+            {isOpen && <ul style={menuStyle}>{children}</ul>}
         </div>
     );
 }
