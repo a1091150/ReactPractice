@@ -7,3 +7,6 @@
     - [ITHome Day 9](https://ithelp.ithome.com.tw/articles/10243347)
 - 2022/12/06
     - [ITHome Day 11](https://ithelp.ithome.com.tw/articles/10244415)
+- 2022/12/21
+    - [ITHome Day 16](https://ithelp.ithome.com.tw/articles/10247575)
+    - 但是沒有畫面
