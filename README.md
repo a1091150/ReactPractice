@@ -16,3 +16,5 @@
     - [ITHome Day 17](https://ithelp.ithome.com.tw/articles/10248535)
 - 2022/12/19
     - [ITHome Day 20](https://ithelp.ithome.com.tw/articles/10249355)
+- 2021/01/08
+    - [ITHome Day 30](https://ithelp.ithome.com.tw/articles/10253406)
