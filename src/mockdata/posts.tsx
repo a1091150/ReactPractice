@@ -3,7 +3,8 @@ const posts = [
     "title": "[販售] 台北 Apple AirPods Pro 2 USB-C 全新",
     "url": "/bbs/MacShop/M.1741611253.A.696.html",
     "author": "supersp",
-    "date": "3/10"
+    "date": "3/10",
+    "mark": "🔥"
   },
   {
     "title": "[徵求] 新竹 ipad Mini 7 Wifi 版本128G 藍色",
@@ -15,7 +16,8 @@ const posts = [
     "title": "台中 Air Pods 2 左耳 + Lightning充電盒",
     "url": "/bbs/MacShop/M.1741611943.A.AC4.html",
     "author": "leito",
-    "date": "3/10"
+    "date": "3/10",
+    "mark": "📢"
   },
   {
     "title": "[公告] 板規 20230922版本",
@@ -37,7 +39,7 @@ const posts = [
     "url": "/bbs/MacShop/M.1720087902.A.504.html",
     "author": "atimis",
     "date": "7/04",
-    "mark": "M"
+    "mark": "M",
   },
   {
     "title": "[公告] 新增板規 禁止販售 未經NCC認證商品 水貨",

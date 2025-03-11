@@ -1,12 +1,5 @@
 import React from "react";
-
-interface PostProps {
-    title: string;
-    url: string;
-    author: string;
-    date: string;
-    mark?: string;
-}
+import { PostItemProps } from "../types/postItemProps";
 
 /*
 function PostItem({title, url, author, date, mark}: PostProps) {
@@ -16,10 +9,11 @@ function PostItem({title, url, author, date, mark}: PostProps) {
 }
 */
 
-const PostItem: React.FC<PostProps> = ({ title, author, date }) => {
+const PostItem: React.FC<PostItemProps> = ({ title, author, date, replies }) => {
     return (
       <div className="flex flex-col border-b p-2">
         {/* 文章標題 */}
+        <span className="text-left w-10">{replies ?? 0}</span>
         <div className="flex justify-between">
           <span className="text-left">{title}</span>
         </div>
