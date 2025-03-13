@@ -1,0 +1,9 @@
+{
+  "WelcomePage": [
+    {
+      "id": 1,
+      "imageUrl": "https://loremflickr.com/300/300/abstract?lock=30160",
+      "numberofVisitors": 56789
+    }
+  ]
+}
